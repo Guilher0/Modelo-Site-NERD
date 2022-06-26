@@ -1,0 +1,54 @@
+/*---Logo--*/
+
+div.logo{
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 100px;
+}
+
+img.nerd {
+    height: 100%;
+    max-height: 146px;
+    width: 100%;
+    max-width: 520px;
+    
+}
+
+/*---Fale Conosco--*/
+p.fale {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;    
+    color: aliceblue;
+
+    background-color: #7ECAD4;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 120px;
+    margin-inline: auto;
+}
+
+/*--Links--*/
+.redes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(233px, 0.2fr));
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+button{
+    background-color: #7ECAD4;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;    
+    color: aliceblue;
+}
